@@ -28,4 +28,18 @@ public class ShipController : MonoBehaviour
        //Debug.Log(deltaposition);
        shipbody.velocity = deltaposition;
     }
+    
+    void OnTriggerEnter2D(Collider2D other)
+    {
+      if (other.gameObject.CompareTag("PickUp")) 
+        {
+          StartCoroutine(DestroyThis(other));
+          GetComponent<AudioSource>().Play();
+        }
+    }
+    
+    IEnumerator DestroyThis(Collider2D other){
+      yield return new WaitForSeconds(1f);
+      other.gameObject.SetActive(false);
+    }
 }
