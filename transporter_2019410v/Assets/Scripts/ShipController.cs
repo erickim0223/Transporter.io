@@ -26,7 +26,7 @@ public class ShipController : MonoBehaviour
 
        deltaposition = (mouseposition - changedposition).normalized;
        //Debug.Log(deltaposition);
-       shipbody.velocity = deltaposition;
+       shipbody.velocity = deltaposition*3;
     }
     
     void OnTriggerEnter2D(Collider2D other)
