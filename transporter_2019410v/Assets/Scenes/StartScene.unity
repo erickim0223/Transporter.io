@@ -680,7 +680,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3652c61a74af14d2aa5ec0b7018bcdde, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  transition: {fileID: 8819059164739233504}
+  transition: {fileID: 476882438017615153}
   transitionTime: 1
 --- !u!1 &1953580232
 GameObject:
@@ -890,10 +890,16 @@ PrefabInstance:
     - target: {fileID: 9006545703989190211, guid: 0da04babc44684f1eabf02a2b59e1c64,
         type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0da04babc44684f1eabf02a2b59e1c64, type: 3}
+--- !u!95 &476882438017615153 stripped
+Animator:
+  m_CorrespondingSourceObject: {fileID: 9006545703989190220, guid: 0da04babc44684f1eabf02a2b59e1c64,
+    type: 3}
+  m_PrefabInstance: {fileID: 476882438017615152}
+  m_PrefabAsset: {fileID: 0}
 --- !u!224 &8819059164315720560 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 9006545703989190208, guid: 0da04babc44684f1eabf02a2b59e1c64,
@@ -1020,13 +1026,7 @@ PrefabInstance:
     - target: {fileID: 8819059164213771690, guid: 9e665b2f874ef415da320f412a69fb7d,
         type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9e665b2f874ef415da320f412a69fb7d, type: 3}
---- !u!95 &8819059164739233504 stripped
-Animator:
-  m_CorrespondingSourceObject: {fileID: 8819059164213771685, guid: 9e665b2f874ef415da320f412a69fb7d,
-    type: 3}
-  m_PrefabInstance: {fileID: 8819059164739233503}
-  m_PrefabAsset: {fileID: 0}
