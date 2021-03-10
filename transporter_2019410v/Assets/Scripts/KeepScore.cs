@@ -23,7 +23,7 @@ public class KeepScore : MonoBehaviour
     void UpdateScore()
     {
         Text scoreTextB = textGameObject.GetComponent<Text>();
-        scoreTextB.text = "Score: " + score;
+        scoreTextB.text = "Deliveries: " + score;
     }
 
 }
