@@ -39,6 +39,7 @@ public class ShipController : MonoBehaviour
     }
     
     IEnumerator DestroyThis(Collider2D other){
+      KeepScore.score += 1;
       yield return new WaitForSeconds(1f);
       other.gameObject.SetActive(false);
     }

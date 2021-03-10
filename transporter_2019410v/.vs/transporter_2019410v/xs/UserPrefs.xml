@@ -1,7 +1,8 @@
 ﻿<Properties StartupConfiguration="{5AA1A0AD-FC54-AF4B-6713-6B8EC5EDF094}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/GoToLEVEL1.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/KeepScore.cs">
     <Files>
-      <File FileName="Assets/Scripts/GoToLEVEL1.cs" Line="10" Column="60" />
+      <File FileName="Assets/Scripts/GameController.cs" Line="28" Column="1" />
+      <File FileName="Assets/Scripts/ShipController.cs" Line="42" Column="7" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -9,7 +10,7 @@
           <Node name="transporter_2019410v" expanded="True">
             <Node name="Assets" expanded="True">
               <Node name="Scripts" expanded="True">
-                <Node name="GoToLEVEL1.cs" selected="True" />
+                <Node name="KeepScore.cs" selected="True" />
               </Node>
             </Node>
           </Node>
@@ -19,7 +20,7 @@
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="f7544480-360b-4cc6-b1f2-026d23f11ace" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="c241e8e5-ffad-4eb0-8759-978bc2b5981c" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
