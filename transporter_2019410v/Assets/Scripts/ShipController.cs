@@ -16,12 +16,18 @@ public class ShipController : MonoBehaviour
     Vector2 mousePos;
 
     Rigidbody2D shipbody;  
-
+    
+    //Health 
+    public int maxHealth = 15;
+    public int currentHealth;
+    public HealthBar healthbar;
 
     // Start is called before the first frame update
     void Start()
     {
         shipbody = GetComponent<Rigidbody2D>();
+        currentHealth = maxHealth;
+        healthbar.SetMaxHealth(maxHealth);
     }
 
     // Update is called once per frame
@@ -39,9 +45,12 @@ public class ShipController : MonoBehaviour
 
        //movement.x = Input.GetAxisRaw("Horizontal");
        //movement.y = Input.GetAxisRaw("Verticle");
-
+       
+       // if (Input.GetKeyDown(KeyCode.Space)){
+       //   TakeDamage(2);
+       // }
     }
-
+    
     void FixedUpdate()
     {
         Vector2 lookDir = mousePos - shipbody.position;
@@ -51,11 +60,26 @@ public class ShipController : MonoBehaviour
     
     void OnTriggerEnter2D(Collider2D other)
     {
-      if (other.gameObject.CompareTag("PickUp")) 
-        {
-          StartCoroutine(DestroyThis(other));
-          GetComponent<AudioSource>().Play();
-        }
+      if (other.gameObject.tag == "PickUp") 
+      {
+        StartCoroutine(DestroyThis(other));
+        GetComponent<AudioSource>().Play();
+      }
+    }
+    
+    void OnCollisionEnter2D(Collision2D collision){
+		  if (collision.gameObject.tag == "enemyFollow") {
+			  TakeDamage(2);
+		  }
+      if (collision.gameObject.tag == "projectile") {
+			  TakeDamage(1);
+		  }
+	  }
+    
+    void TakeDamage(int damage) 
+    {
+      currentHealth -= damage;
+      healthbar.SetHealth(currentHealth);
     }
     
     IEnumerator DestroyThis(Collider2D other){

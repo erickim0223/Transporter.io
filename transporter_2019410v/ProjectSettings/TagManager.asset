@@ -5,6 +5,10 @@ TagManager:
   serializedVersion: 2
   tags:
   - PickUp
+  - bullet
+  - enemyFollow
+  - enemyShooter
+  - projectile
   layers:
   - Default
   - TransparentFX
