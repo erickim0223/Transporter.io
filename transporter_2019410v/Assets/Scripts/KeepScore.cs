@@ -6,7 +6,6 @@ using UnityEngine.SceneManagement;
 
 public class KeepScore : MonoBehaviour
 {
-
     public GameObject textGameObject;
     static public int score = 0;        // these variables are static so they get sent to the next scene
 
@@ -24,6 +23,10 @@ public class KeepScore : MonoBehaviour
     {
         Text scoreTextB = textGameObject.GetComponent<Text>();
         scoreTextB.text = "Deliveries: " + score + " / 5";
+        if (score == 5)
+        {
+            SceneManager.LoadScene("WinScene");
+        }
     }
 
 }

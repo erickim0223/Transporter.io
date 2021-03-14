@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class ShipController : MonoBehaviour
 {
@@ -64,6 +65,9 @@ public class ShipController : MonoBehaviour
       {
         StartCoroutine(DestroyThis(other));
         GetComponent<AudioSource>().Play();
+
+        //this adds to score, after coliding with pickup
+        KeepScore.score++;
       }
     }
     
@@ -76,9 +80,9 @@ public class ShipController : MonoBehaviour
 		  }
       
       if(currentHealth == 0) {
-        //CHANGE TO LOSE SCENE
+            SceneManager.LoadScene("LoseScene");
       }
-	  }
+	}
     
     void TakeDamage(int damage) 
     {

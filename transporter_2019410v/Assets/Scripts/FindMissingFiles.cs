@@ -1,11 +1,11 @@
 ﻿using UnityEngine;
 using UnityEditor;
-public class FindMissingScripts : EditorWindow
+public class FindMissingFiles : EditorWindow
 {
     [MenuItem("Window/FindMissingScripts")]
     public static void ShowWindow()
     {
-        EditorWindow.GetWindow(typeof(FindMissingScripts));
+        EditorWindow.GetWindow(typeof(FindMissingFiles));
     }
  
     public void OnGUI()

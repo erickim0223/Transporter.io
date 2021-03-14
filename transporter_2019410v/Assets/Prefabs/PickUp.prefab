@@ -227,3 +227,5 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   textGameObject: {fileID: 7437768166565673592, guid: afe552e6e76134b719f9089fc63eed45,
     type: 3}
+  item1image: {fileID: 3148872085215655290, guid: 230740e3206d84d05b732ca14cefe5cc,
+    type: 3}
