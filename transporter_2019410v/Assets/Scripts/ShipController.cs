@@ -71,9 +71,13 @@ public class ShipController : MonoBehaviour
 		  if (collision.gameObject.tag == "enemyFollow") {
 			  TakeDamage(2);
 		  }
-      if (collision.gameObject.tag == "projectile") {
+      else if (collision.gameObject.tag == "projectile") {
 			  TakeDamage(1);
 		  }
+      
+      if(currentHealth == 0) {
+        //CHANGE TO LOSE SCENE
+      }
 	  }
     
     void TakeDamage(int damage) 
