@@ -61,7 +61,7 @@ public class ShipController : MonoBehaviour
        //movement.x = Input.GetAxisRaw("Horizontal");
        //movement.y = Input.GetAxisRaw("Verticle");
        if(currentHealth <= 0) {
-             SceneManager.LoadScene("LoseScene");
+             SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
        }
     }
     

@@ -23,7 +23,7 @@ public class TimerScript : MonoBehaviour
                 GetComponent<Text>().color = Color.red;
             }
         } else {
-            SceneManager.LoadScene("LoseScene");
+            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
         }
     }
 }

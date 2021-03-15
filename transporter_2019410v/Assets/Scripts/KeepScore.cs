@@ -25,7 +25,7 @@ public class KeepScore : MonoBehaviour
         scoreTextB.text = "Deliveries: " + score + " / 5";
         if (score == 5)
         {
-            SceneManager.LoadScene("WinScene");
+            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 2);
         }
     }
 
