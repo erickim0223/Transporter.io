@@ -23,12 +23,26 @@ public class ShipController : MonoBehaviour
     public int currentHealth;
     public HealthBar healthbar;
 
+    //PickUp
+    public GameObject pickup1, pickup2, pickup3, pickup4, pickup5;
+
     // Start is called before the first frame update
     void Start()
     {
         shipbody = GetComponent<Rigidbody2D>();
         currentHealth = maxHealth;
         healthbar.SetMaxHealth(maxHealth);
+
+        pickup1 = GameObject.FindWithTag("PickUp1");
+        pickup1.SetActive(true);
+        pickup2 = GameObject.FindWithTag("PickUp2");
+        pickup2.SetActive(false);
+        pickup3 = GameObject.FindWithTag("PickUp3");
+        pickup3.SetActive(false);
+        pickup4 = GameObject.FindWithTag("PickUp4");
+        pickup4.SetActive(false);
+        pickup5 = GameObject.FindWithTag("PickUp5");
+        pickup5.SetActive(false);
     }
 
     // Update is called once per frame
@@ -61,14 +75,26 @@ public class ShipController : MonoBehaviour
     
     void OnTriggerEnter2D(Collider2D other)
     {
-      if (other.gameObject.tag == "PickUp") 
-      {
-        StartCoroutine(DestroyThis(other));
-        GetComponent<AudioSource>().Play();
+      if (other.gameObject.tag == "PickUp1") {
+            StartCoroutine(DestroyThis(other));
+            GetComponent<AudioSource>().Play();
+            pickup2.SetActive(true);
+      } else if (other.gameObject.tag == "PickUp2") {
+            StartCoroutine(DestroyThis(other));
+            GetComponent<AudioSource>().Play();
+            pickup3.SetActive(true);
+      } else if (other.gameObject.tag == "PickUp3") {
+            StartCoroutine(DestroyThis(other));
+            GetComponent<AudioSource>().Play();
+            pickup4.SetActive(true);
+      } else if (other.gameObject.tag == "PickUp4") {
+            StartCoroutine(DestroyThis(other));
+            GetComponent<AudioSource>().Play();
+            pickup5.SetActive(true);
+      }
 
         //this adds to score, after coliding with pickup
         KeepScore.score++;
-      }
     }
     
     void OnCollisionEnter2D(Collision2D collision){
