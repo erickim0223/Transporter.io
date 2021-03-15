@@ -1481,7 +1481,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 998788608}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -532.8791, y: -223.96976, z: -294.08093}
+  m_LocalPosition: {x: -532.8791, y: -853, z: -294.08093}
   m_LocalScale: {x: 0.8220938, y: 0.8220938, z: 0.8220938}
   m_Children:
   - {fileID: 1588654299}
@@ -3016,12 +3016,12 @@ PrefabInstance:
     - target: {fileID: 206705688950263375, guid: 034595e3c90b443538bf79261e0c389d,
         type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 0
+      value: -445
       objectReference: {fileID: 0}
     - target: {fileID: 206705688950263375, guid: 034595e3c90b443538bf79261e0c389d,
         type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 350
+      value: 257
       objectReference: {fileID: 0}
     - target: {fileID: 206705688950263375, guid: 034595e3c90b443538bf79261e0c389d,
         type: 3}
@@ -3067,6 +3067,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: TimerText
+      objectReference: {fileID: 0}
+    - target: {fileID: 6286194017562134897, guid: 034595e3c90b443538bf79261e0c389d,
+        type: 3}
+      propertyPath: m_FontData.m_FontSize
+      value: 80
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 034595e3c90b443538bf79261e0c389d, type: 3}
