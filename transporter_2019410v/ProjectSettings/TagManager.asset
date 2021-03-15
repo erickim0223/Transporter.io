@@ -9,6 +9,11 @@ TagManager:
   - enemyFollow
   - enemyShooter
   - projectile
+  - PickUp1
+  - PickUp2
+  - PickUp3
+  - PickUp5
+  - PickUp4
   layers:
   - Default
   - TransparentFX

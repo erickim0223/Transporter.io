@@ -394,6 +394,18 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
+--- !u!1 &152336329 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4882137683709959424, guid: 502ae5a91510140329c7c965fd5e06e7,
+    type: 3}
+  m_PrefabInstance: {fileID: 3562114926033630967}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &157243716 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6623306561309815510, guid: 7544f266065fa4e76aeb9b8d6a585432,
+    type: 3}
+  m_PrefabInstance: {fileID: 2973867535053003354}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &233302000
 GameObject:
   m_ObjectHideFlags: 0
@@ -825,6 +837,12 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 542411031}
   m_CullTransparentMesh: 0
+--- !u!1 &565180224 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2761908747865223590, guid: 7d30336f339804a19b518822b5c7f0e9,
+    type: 3}
+  m_PrefabInstance: {fileID: 2425736800451696126}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &568043199 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 5613723802186819062, guid: aca0f827930754ae0bd4588461d5ed0a,
@@ -1830,6 +1848,12 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1389927018}
   m_CullTransparentMesh: 0
+--- !u!1 &1460825816 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5961768474651623329, guid: a39a5b73b908a4eae9af85a533cee49a,
+    type: 3}
+  m_PrefabInstance: {fileID: 2311347347641378145}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &1466527322 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 5613723802186819062, guid: aca0f827930754ae0bd4588461d5ed0a,
@@ -2024,6 +2048,11 @@ MonoBehaviour:
   maxHealth: 15
   currentHealth: 0
   healthbar: {fileID: 1170861052}
+  pickup1: {fileID: 157243716}
+  pickup2: {fileID: 1728557148}
+  pickup3: {fileID: 565180224}
+  pickup4: {fileID: 152336329}
+  pickup5: {fileID: 1460825816}
 --- !u!82 &1525620729
 AudioSource:
   m_ObjectHideFlags: 0
@@ -2394,6 +2423,12 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1 &1728557148 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3697108218422903903, guid: 85a776c7c7fce47828efda83355a12da,
+    type: 3}
+  m_PrefabInstance: {fileID: 4747144389441354759}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1731471899
 GameObject:
   m_ObjectHideFlags: 0
@@ -2597,6 +2632,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: PickUp5
       objectReference: {fileID: 0}
+    - target: {fileID: 5961768474651623329, guid: a39a5b73b908a4eae9af85a533cee49a,
+        type: 3}
+      propertyPath: m_TagString
+      value: PickUp5
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a39a5b73b908a4eae9af85a533cee49a, type: 3}
 --- !u!1001 &2425736800451696126
@@ -2609,6 +2649,11 @@ PrefabInstance:
     - target: {fileID: 2761908747865223590, guid: 7d30336f339804a19b518822b5c7f0e9,
         type: 3}
       propertyPath: m_Name
+      value: PickUp3
+      objectReference: {fileID: 0}
+    - target: {fileID: 2761908747865223590, guid: 7d30336f339804a19b518822b5c7f0e9,
+        type: 3}
+      propertyPath: m_TagString
       value: PickUp3
       objectReference: {fileID: 0}
     - target: {fileID: 6282216387197652891, guid: 7d30336f339804a19b518822b5c7f0e9,
@@ -2804,7 +2849,13 @@ PrefabInstance:
       propertyPath: m_Name
       value: PickUp1
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    - target: {fileID: 6623306561309815510, guid: 7544f266065fa4e76aeb9b8d6a585432,
+        type: 3}
+      propertyPath: m_TagString
+      value: PickUp1
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 2276312231446183971, guid: 7544f266065fa4e76aeb9b8d6a585432, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 7544f266065fa4e76aeb9b8d6a585432, type: 3}
 --- !u!1001 &3562114926033630967
 PrefabInstance:
@@ -2871,6 +2922,11 @@ PrefabInstance:
     - target: {fileID: 4882137683709959424, guid: 502ae5a91510140329c7c965fd5e06e7,
         type: 3}
       propertyPath: m_Name
+      value: PickUp4
+      objectReference: {fileID: 0}
+    - target: {fileID: 4882137683709959424, guid: 502ae5a91510140329c7c965fd5e06e7,
+        type: 3}
+      propertyPath: m_TagString
       value: PickUp4
       objectReference: {fileID: 0}
     m_RemovedComponents: []
@@ -3009,6 +3065,11 @@ PrefabInstance:
     - target: {fileID: 3697108218422903903, guid: 85a776c7c7fce47828efda83355a12da,
         type: 3}
       propertyPath: m_Name
+      value: PickUp2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3697108218422903903, guid: 85a776c7c7fce47828efda83355a12da,
+        type: 3}
+      propertyPath: m_TagString
       value: PickUp2
       objectReference: {fileID: 0}
     - target: {fileID: 4770556155888368226, guid: 85a776c7c7fce47828efda83355a12da,
