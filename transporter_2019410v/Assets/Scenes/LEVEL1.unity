@@ -153,7 +153,7 @@ Transform:
   - {fileID: 1594191362}
   - {fileID: 568043199}
   m_Father: {fileID: 0}
-  m_RootOrder: 9
+  m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &86283942
 PrefabInstance:
@@ -225,7 +225,7 @@ PrefabInstance:
     - target: {fileID: 9006545703989190208, guid: 0da04babc44684f1eabf02a2b59e1c64,
         type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -0.43014526
+      value: -0.43017578
       objectReference: {fileID: 0}
     - target: {fileID: 9006545703989190208, guid: 0da04babc44684f1eabf02a2b59e1c64,
         type: 3}
@@ -387,7 +387,7 @@ RectTransform:
   - {fileID: 86283943}
   - {fileID: 4890063454631130001}
   m_Father: {fileID: 0}
-  m_RootOrder: 1
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -760,6 +760,7 @@ GameObject:
   - component: {fileID: 519420032}
   - component: {fileID: 519420031}
   - component: {fileID: 519420029}
+  - component: {fileID: 519420030}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -775,6 +776,19 @@ AudioListener:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 519420028}
   m_Enabled: 1
+--- !u!114 &519420030
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 519420028}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a9080c6b9771f4c4e9e071f8a3f2c39b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  target: {fileID: 1525620723}
 --- !u!20 &519420031
 Camera:
   m_ObjectHideFlags: 0
@@ -830,7 +844,7 @@ Transform:
   m_LocalScale: {x: 0.83333325, y: 0.83333325, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 0
+  m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &542411031
 GameObject:
@@ -942,7 +956,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 4
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!81 &621924453
 AudioListener:
@@ -1027,7 +1041,7 @@ Transform:
   - {fileID: 1377856744}
   - {fileID: 980595151}
   m_Father: {fileID: 0}
-  m_RootOrder: 7
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &766868748
 PrefabInstance:
@@ -1318,7 +1332,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 2
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &980595150
 GameObject:
@@ -1762,7 +1776,7 @@ Transform:
   m_LocalScale: {x: 4, y: 4, z: 4}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 3
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1377856743
 GameObject:
@@ -1956,7 +1970,7 @@ Transform:
   - {fileID: 1476069842}
   - {fileID: 179943655}
   m_Father: {fileID: 0}
-  m_RootOrder: 5
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1476069841
 PrefabInstance:
@@ -2061,7 +2075,6 @@ GameObject:
   - component: {fileID: 1525620724}
   - component: {fileID: 1525620728}
   - component: {fileID: 1525620729}
-  - component: {fileID: 1525620730}
   - component: {fileID: 1525620731}
   - component: {fileID: 1525620725}
   m_Layer: 0
@@ -2183,7 +2196,7 @@ Transform:
   - {fileID: 1692213152}
   - {fileID: 985573773}
   m_Father: {fileID: 0}
-  m_RootOrder: 6
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1525620728
 MonoBehaviour:
@@ -2298,18 +2311,6 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
---- !u!114 &1525620730
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1525620723}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8016058ad5ba046699a3c417cf6df42a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &1525620731
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2931,7 +2932,7 @@ PrefabInstance:
     - target: {fileID: 8128381295584914586, guid: 2b1fce97900d84df8821e6b9970d2709,
         type: 3}
       propertyPath: m_RootOrder
-      value: 8
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 8128381295584914586, guid: 2b1fce97900d84df8821e6b9970d2709,
         type: 3}
