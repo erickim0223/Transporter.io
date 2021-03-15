@@ -100,13 +100,13 @@ public class ShipController : MonoBehaviour
     void OnCollisionEnter2D(Collision2D collision){
 		  if (collision.gameObject.tag == "enemyFollow") {
 			  TakeDamage(2);
-        if(currentHealth == 0) {
+        if(currentHealth <= 0) {
               SceneManager.LoadScene("LoseScene");
         }
 		  }
       else if (collision.gameObject.tag == "projectile") {
 			  TakeDamage(1);
-        if(currentHealth == 0) {
+        if(currentHealth <= 0) {
               SceneManager.LoadScene("LoseScene");
         }
 		  }
