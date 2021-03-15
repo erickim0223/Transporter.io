@@ -7,7 +7,7 @@ using UnityEngine.SceneManagement;
 public class TimerScript : MonoBehaviour
 {
     public GameObject textGameObject;
-    public float timeRemaining = 100;
+    public float timeRemaining = 126;
 
     // Update is called once per frame
     void Update()
