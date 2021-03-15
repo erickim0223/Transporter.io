@@ -87,7 +87,8 @@ PrefabInstance:
       propertyPath: m_TagString
       value: PickUp
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: -5273054158806658861, guid: 6a2e8b63b3436413ebae58ba0dd8aeb4, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 6a2e8b63b3436413ebae58ba0dd8aeb4, type: 3}
 --- !u!1 &6623306561309815510 stripped
 GameObject:

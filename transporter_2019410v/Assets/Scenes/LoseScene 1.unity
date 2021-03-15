@@ -915,6 +915,12 @@ Animator:
     type: 3}
   m_PrefabInstance: {fileID: 1359006531}
   m_PrefabAsset: {fileID: 0}
+--- !u!95 &1397643278 stripped
+Animator:
+  m_CorrespondingSourceObject: {fileID: 9006545703989190220, guid: 0da04babc44684f1eabf02a2b59e1c64,
+    type: 3}
+  m_PrefabInstance: {fileID: 167732832}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &2022294551
 GameObject:
   m_ObjectHideFlags: 0
@@ -1006,5 +1012,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2603a0c7c986e40af89b6c347f7d51e7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  transition: {fileID: 0}
+  transition: {fileID: 1397643278}
   transitionTime: 1

@@ -94,7 +94,6 @@ GameObject:
   - component: {fileID: 2936090470030044418}
   - component: {fileID: 1705418283757638566}
   - component: {fileID: -3071380910275251412}
-  - component: {fileID: -5273054158806658861}
   m_Layer: 0
   m_Name: PickUp
   m_TagString: PickUp
@@ -227,26 +226,4 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   textGameObject: {fileID: 7437768166565673592, guid: afe552e6e76134b719f9089fc63eed45,
-    type: 3}
---- !u!114 &-5273054158806658861
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8264099809652531750}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6899bf994f79c4d2ca02e810bf91e88d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  item1image: {fileID: 6623306561309815510, guid: 7544f266065fa4e76aeb9b8d6a585432,
-    type: 3}
-  item2image: {fileID: 3697108218422903903, guid: 85a776c7c7fce47828efda83355a12da,
-    type: 3}
-  item3image: {fileID: 2761908747865223590, guid: 7d30336f339804a19b518822b5c7f0e9,
-    type: 3}
-  item4image: {fileID: 4882137683709959424, guid: 502ae5a91510140329c7c965fd5e06e7,
-    type: 3}
-  item5image: {fileID: 5961768474651623329, guid: a39a5b73b908a4eae9af85a533cee49a,
     type: 3}
