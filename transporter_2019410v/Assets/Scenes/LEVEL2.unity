@@ -200,7 +200,7 @@ PrefabInstance:
     - target: {fileID: 9006545703989190208, guid: 0da04babc44684f1eabf02a2b59e1c64,
         type: 3}
       propertyPath: m_RootOrder
-      value: 4
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 9006545703989190208, guid: 0da04babc44684f1eabf02a2b59e1c64,
         type: 3}
@@ -275,7 +275,7 @@ PrefabInstance:
     - target: {fileID: 9006545703989190211, guid: 0da04babc44684f1eabf02a2b59e1c64,
         type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 9006545703989190220, guid: 0da04babc44684f1eabf02a2b59e1c64,
         type: 3}
@@ -383,9 +383,9 @@ RectTransform:
   - {fileID: 998788610}
   - {fileID: 233302001}
   - {fileID: 1170861050}
-  - {fileID: 949012311}
   - {fileID: 86283943}
   - {fileID: 4890063454631130001}
+  - {fileID: 949012311}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -626,8 +626,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 15, y: -2.1}
-  m_SizeDelta: {x: -58.528107, y: -35.337746}
+  m_AnchoredPosition: {x: 19.98, y: -2.1}
+  m_SizeDelta: {x: -68.47983, y: -35.337746}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &447303242
 MonoBehaviour:
@@ -1091,7 +1091,7 @@ PrefabInstance:
     - target: {fileID: 8819059164213771689, guid: 9e665b2f874ef415da320f412a69fb7d,
         type: 3}
       propertyPath: m_RootOrder
-      value: 3
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 8819059164213771689, guid: 9e665b2f874ef415da320f412a69fb7d,
         type: 3}
@@ -1181,7 +1181,7 @@ PrefabInstance:
     - target: {fileID: 8819059164213771690, guid: 9e665b2f874ef415da320f412a69fb7d,
         type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9e665b2f874ef415da320f412a69fb7d, type: 3}
@@ -1567,7 +1567,7 @@ MonoBehaviour:
   m_MinValue: 0
   m_MaxValue: 15
   m_WholeNumbers: 1
-  m_Value: 11
+  m_Value: 15
   m_OnValueChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -2976,7 +2976,7 @@ PrefabInstance:
     - target: {fileID: 206705688950263375, guid: 034595e3c90b443538bf79261e0c389d,
         type: 3}
       propertyPath: m_RootOrder
-      value: 5
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 206705688950263375, guid: 034595e3c90b443538bf79261e0c389d,
         type: 3}
